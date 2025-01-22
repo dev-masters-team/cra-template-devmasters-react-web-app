@@ -1,22 +1,25 @@
 {
-    "main": "template.json",
-    "description": "React web application with preset packages redux, antd, lint, prettier, dotenv, etc...",
-    "keywords": [
-      "react",
-      "eslint",
-      "redux",
-      "react-redux",
-      "react-router",
-      "react-router-dom",
-      "typescript",
-      "prettier",
-      "dotenv",
-      "antd"
-    ],
-    "files": ["template", "template.json"],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/dev-masters-team/react-web-app-template",
-      "directory": "/"
-    }
-  }
+  "name": "cra-template-devmasters-react-web-app",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "antd",
+    "redux"
+  ],
+  "description": "Devmasters react web app template.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-masters-team/cra-template-devmasters-react-web-app.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
