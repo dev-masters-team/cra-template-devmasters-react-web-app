@@ -1,6 +1,6 @@
 {
-  "short_name": "MusicTMM BO",
-  "name": "cra-template-devmasters-react-web-app",
+  "short_name": "DevMasters Template",
+  "name": "DevMasters Template",
   "icons": [
     {
       "src": "favicon.ico",
