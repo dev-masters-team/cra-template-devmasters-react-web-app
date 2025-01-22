@@ -1,0 +1,81 @@
+$primaryColor: #0f141a;
+$primaryTextColor: #15104d;
+$secondaryTextColor: #7d8fb3;
+$secondaryBackground: #293441;
+$serviceColor: #6938d3;
+$activityColor: #039162;
+$postColor: #e8753d;
+
+:export {
+  primaryColor: $primaryColor;
+  primaryTextColor: $primaryTextColor;
+  secondaryTextColor: $secondaryTextColor;
+}
+
+//TODO: refactor, remove unused
+
+$primaryColor: #224160;
+$secondaryColor: #1591ff;
+$tertiaryColor: #a8bbcc;
+$textColor: #224160;
+$defaultTextColor: #3d3c3c;
+
+$primaryColorText: #ffffff;
+$primaryColorLighten: lighten($primaryColor, 10%);
+$primaryColorLighter: lighten($primaryColor, 40%);
+$primaryColorExtraLighter: lighten($primaryColor, 70%);
+$primaryColorDarker: darken($primaryColor, 5%);
+$primaryColorExtraDarker: darken($primaryColor, 20%);
+
+$secondaryColorText: #ffffff;
+$secondaryColorLighten: lighten($secondaryColor, 20%);
+$secondaryColorLighter: lighten($secondaryColor, 40%);
+
+$tertiaryColorLighten: lighten($tertiaryColor, 10%);
+$tertiaryColorText: #ffffff;
+
+$textColorLighten: lighten($textColor, 10%);
+//same in personnalization.ts
+$backgroundImageFilename: 'back.jpg';
+
+$textLinkColorHover: #1591ff;
+
+/** Applications **/
+$auxameetings: #023f60;
+$auxaplanning: #0b8adb;
+$auxateam: #3dac16;
+$auxadrive: #c12b3c;
+$auxatransfer: #fb4413;
+$auxadoc: #023f60;
+$managment: #7c8992;
+
+/*! Colors */
+$successColor: #52c41a;
+$errorColor: #ff4d4f;
+$errorColorLighten: lighten($errorColor, 30%);
+$warningColor: #faad14;
+$infoColor: #1677ff;
+$grey: #f0f1f3;
+$lightgrey: #e0e0e0;
+$extraLightgrey: #f7f7f7;
+$darkGrey: #ebebeb;
+
+/*! Breakpoint (same as antd) */
+$xxs: 440px;
+$xs: 500px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$l: 1200px;
+$xl: 1400px;
+$xxl: 1600px;
+$laptop: 1280px;
+
+$scrollThumbBackgroundColor: #747474;
+$scrollTrackBackgroundColor: whitesmoke;
+$scrollWidth: 6px;
+$defaultFontSize: 1em;
+
+/* antd color */
+$sortArrowInactiveColor: #afafaf;
+$antdGreyDefault: #d9d9d9;

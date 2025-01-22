@@ -1,0 +1,61 @@
+@import '../../utils/theme/pallette.module.scss';
+
+.success-pg-bar {
+  border: solid $successColor;
+}
+
+.warning-pg-bar {
+  border: solid $warningColor;
+}
+
+.error-pg-bar {
+  border: solid $errorColor;
+}
+
+.info-pg-bar {
+  border: solid $infoColor;
+}
+
+.text-pg-bar {
+  border: solid $textColor;
+}
+
+.toast-hover {
+  &:hover .progress-bar {
+    animation: emptyanim;
+  }
+}
+
+.toast-button {
+  z-index: 1;
+}
+
+.progress-bar {
+  width: 100%;
+  border-radius: 10px;
+  animation-timing-function: linear;
+  animation-name: progress-bar-animation;
+  animation-fill-mode: forwards;
+  border-width: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@keyframes progress-bar-animation {
+  from {
+    width: 100%;
+  }
+
+  99% {
+    visibility: visible;
+  }
+
+  to {
+    width: 0%;
+    visibility: hidden;
+  }
+}
+
+@keyframes emptyanim {
+}
